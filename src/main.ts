@@ -1,6 +1,5 @@
 global.EntryPoint = EntryPoint;
 
 function EntryPoint() {
-  console.log("entry point");
+  console.log('entry point');
 }
-
