@@ -4,7 +4,9 @@ A minimal TypeScript starter for Google Apps Script projects using clasp v3, whi
 
 ## Features
 - Minimum setup for TypeScript with esbuild
+- Just 6 dependencies: `@google/clasp`, `@biomejs/biome`, `@types/google-apps-script`, `esbuild`, `esbuild-gas-plugin`, and `typescript`
 - No testing, no complicated build process, no specific formatting rules
+- If you want to use more features, you can add them yourself
 
 ## Usage
 1. Clone this repository
