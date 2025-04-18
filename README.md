@@ -13,7 +13,8 @@ A minimal TypeScript starter for Google Apps Script projects using clasp v3, whi
 2. Run `yarn install`
 3. Edit `.clasp.json` to set your script ID
 4. Edit `src/index.ts` to write your code
-5. Authenticate with Google using `yarn clasp login`
-    - See [official documentation](https://github.com/google/clasp?tab=readme-ov-file#authorization)
-6. Run `yarn format` to foramt your code
-7. Run `yarn deploy` to deploy your code
+5. (Optional) Edit `dist/appsscript.json` to change script timezone.
+6. Authenticate with Google using `yarn clasp login`
+    - See [clasp official documentation](https://github.com/google/clasp?tab=readme-ov-file#authorization)
+7. Run `yarn format` to foramt your code
+8. Run `yarn deploy` to deploy your code
