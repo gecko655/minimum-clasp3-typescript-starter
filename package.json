@@ -4,7 +4,7 @@
   "scripts": {
     "build": "node esbuild.js",
     "push": "clasp push",
-    "deploy": "yarn build && yarn push",
+    "deploy": "bun run build && bun run push",
     "format": "biome format --write .",
     "lint": "biome lint .",
     "check": "biome check --write ."
