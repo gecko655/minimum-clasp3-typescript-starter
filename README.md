@@ -16,5 +16,5 @@ A minimal TypeScript starter for Google Apps Script projects using clasp v3, whi
 5. (Optional) Edit `dist/appsscript.json` to change script timezone.
 6. Authenticate with Google using `bun run clasp login`
     - See [clasp official documentation](https://github.com/google/clasp?tab=readme-ov-file#authorization)
-7. Run `bun run format` to foramt your code
+7. Run `bun run format` to format your code
 8. Run `bun run deploy` to deploy your code
